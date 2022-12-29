@@ -11,19 +11,24 @@ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, access
 Text Domain:  hestiachild
 */
 
-#carousel-hestia-generic > div > div > div > div > div.header-filter {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #3f1651;
-  image-rendering: -webkit-optimize-contrast;
-}
-
 .header-filter::before {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-div.hestia-features-content {
-  color: pink;
+.hestia-info p {
+  color: #525252;
+}
+
+.description {
+  color: #525252;
+}
+
+.card-description {
+  color: #525252;
+}
+
+.category.text-muted {
+  color: #525252;
 }
 
 .section-image:after {
