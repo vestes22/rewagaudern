@@ -11,8 +11,17 @@ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, access
 Text Domain:  hestiachild
 */
 
+/* Colors:
+*
+*
+*
+*
+*
+*
+*/
+
 .header-filter::before {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .hestia-info p {
@@ -33,4 +42,152 @@ Text Domain:  hestiachild
 
 .section-image:after {
   background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* For Mobiles */
+/* .big-title-slider-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  min-height: 300px;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 700px;
+  min-width: 325px;
+  position: absolute;
+  bottom: 10px;
+} */
+
+/* For desktop */
+/* @media (min-width: 768) {
+  .big-title-slider-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    min-height: 350px;
+    color: yellow;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 700px;
+    min-width: 325px;
+  }
+} */
+
+    /* left: 0px; right: 0px; 
+    transform: translate(50%, 50%); */
+
+/* .big-title-slider-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  min-height: 350px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px; right: 0px; 
+  transform: translate(50%, 50%);
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 700px;
+  min-width: 325px;
+} */
+
+/* @media only screen and (max-width: 768) {
+  .big-title-slider-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    min-height: 250px;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 700px;
+    min-width: 325px;
+  }
+} */
+
+.about-container {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hestia-about .container {
+  margin: 0px;
+  width: 100%;
+}
+
+#about.hestia-about {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.about-overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-content {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about-content-container {
+  display: flex;
+}
+
+#about .about-img {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+#about .about-img img {
+  display: flex;
+  margin: auto;
+  align-self: center;
+}
+.about-columns {
+  max-width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.testimonial-container {
+  background: url('assets/img/mountains.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.big-title-slider-content {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 5px 5px 0px 0px;
+  min-height: 250px;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 700px;
+  min-width: 325px;
+  position: absolute;
+  bottom: -10px;
+}
+
+@media all and (min-width: 768px) {
+  .big-title-slider-content {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    min-height: 350px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 700px;
+    min-width: 325px;
+    position: absolute;
+    bottom: 10px;
+  }
 }
