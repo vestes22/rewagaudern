@@ -14,91 +14,82 @@ Text Domain:  hestiachild
 /* Colors:
 *
 *
-*
+*DARK PURPLE
+PMS: 276 C
+HEX COLOR: #221C35;
+RGB: (152,29,151)
 *
 *
 *
 */
 
+/*============================================
+PAGE HEADER - BIG SITE HEADER
+============================================*/
+
+
 .header-filter::before {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.0);
+  background-image: radial-gradient(
+  rgba(255, 255, 255, 0.8), 
+  rgba(255, 255, 255, 0.7),
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.5),
+  rgba(255, 255, 255, 0.4),
+  rgba(255, 255, 255, 0.3),
+  rgba(255, 255, 255, 0.2),
+  rgba(255, 255, 255, 0.1),
+  rgba(255, 255, 255, 0.0),
+  rgba(255, 255, 255, 0.0),
+  rgba(255, 255, 255, 0.0),
+  rgba(255, 255, 255, 0.0)
+  );
 }
 
-.hestia-info p {
-  color: #525252;
+.page-header {
+  background-image: url('assets/img/colorful-mountain-lake.jpg');
 }
 
-.description {
-  color: #525252;
-}
-
-.card-description {
-  color: #525252;
-}
-
-.category.text-muted {
-  color: #525252;
-}
-
-.section-image:after {
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
-/* For Mobiles */
-/* .big-title-slider-content {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 25px;
-  min-height: 300px;
+.big-title-slider-content {
+  /* background-color: rgba(0, 0, 0, 0.75); */
+  /* border-radius: 5px 5px 0px 0px; */
+  /* min-height: 250px;
   padding-left: 8px;
   padding-right: 8px;
   max-width: 700px;
   min-width: 325px;
   position: absolute;
-  bottom: 10px;
-} */
+  bottom: -10px; */
+  color: #221C35;
+}
 
-/* For desktop */
-/* @media (min-width: 768) {
+.big-title-slider-content .hestia-title {
+  color: #221C35;
+  /* background: rgb(255, 255, 255, .9) */
+}
+
+@media all and (min-width: 768px) {
   .big-title-slider-content {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 25px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    color: #221C35;
+    /* border-radius: 40%;
     min-height: 350px;
-    color: yellow;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     max-width: 700px;
     min-width: 325px;
+    position: absolute;
+    bottom: 10px; */
   }
-} */
-
-    /* left: 0px; right: 0px; 
-    transform: translate(50%, 50%); */
-
-/* .big-title-slider-content {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 25px;
-  min-height: 350px;
-  position: absolute;
-  bottom: 10px;
-  left: 0px; right: 0px; 
-  transform: translate(50%, 50%);
-  padding-left: 8px;
-  padding-right: 8px;
-  max-width: 700px;
-  min-width: 325px;
-} */
-
-/* @media only screen and (max-width: 768) {
-  .big-title-slider-content {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 25px;
-    min-height: 250px;
-    padding-left: 8px;
-    padding-right: 8px;
-    max-width: 700px;
-    min-width: 325px;
+  .big-title-slider-content .hestia-title {
+    color: #221C35;
+    /* background: rgb(255, 255, 255, .9) */
   }
-} */
+}
+
+/*============================================
+HOMEPAGE ABOUT SECTION
+============================================*/
 
 .about-container {
   background-size: cover;
@@ -154,6 +145,10 @@ Text Domain:  hestiachild
   justify-content: center;
 }
 
+/*============================================
+TESTIMONIALS
+============================================*/
+
 .testimonial-container {
   background: url('assets/img/mountains.jpg');
   background-size: cover;
@@ -166,28 +161,58 @@ Text Domain:  hestiachild
   padding-bottom: 30px;
 }
 
-.big-title-slider-content {
-  background-color: rgba(0, 0, 0, 0.75);
-  border-radius: 5px 5px 0px 0px;
-  min-height: 250px;
-  padding-left: 8px;
-  padding-right: 8px;
-  max-width: 700px;
-  min-width: 325px;
-  position: absolute;
-  bottom: -10px;
+/*============================================
+HOMEPAGE BLOG
+============================================*/
+
+.card-blog {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-@media all and (min-width: 768px) {
-  .big-title-slider-content {
-    background-color: rgba(0, 0, 0, 0.75);
-    border-radius: 25px;
-    min-height: 350px;
-    padding-left: 16px;
-    padding-right: 16px;
-    max-width: 700px;
-    min-width: 325px;
-    position: absolute;
-    bottom: 10px;
-  }
+
+
+
+
+.hestia-info p {
+  color: #525252;
+}
+
+.description {
+  color: #525252;
+}
+
+.card-description {
+  color: #525252;
+}
+
+.category.text-muted {
+  color: #525252;
+}
+
+.section-image:after {
+  /* background-color: rgba(0, 0, 0, 0.25); */
+}
+
+
+#blog {
+  background: url('assets/img/fall-mountain-lake.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.tss-wrapper .single-item-wrapper h3.author-name {
+  color: white;
+}
+
+.about-text-column {
+  background-color: paleturquoise;
+}
+
+.about-img-column {
+  background-color: white;
+}
+
+.hestia-about {
+  background-color: paleturquoise;
 }
