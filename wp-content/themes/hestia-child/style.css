@@ -333,8 +333,9 @@ TESTIMONIALS
 /*============================================
 CONTACT
 ============================================*/
-.card-contact {
-  min-width: 600px;
+#calendly-inline-widget {
+  min-width: 100% !important;
+  width: 100% !important;
 }
 
 .contactus .card .content {
@@ -351,11 +352,35 @@ CONTACT
   display: none;
 }
 
-#contact {
-  /* background-image: url('assets/img/fall-mountain-lake.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+@media screen and (max-width:1130px) {
+  #contact .row {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+  }
+
+  .hestia-contact-form-col {
+    float: none;
+    margin: auto;
+    align-self: center;
+    align-content: center;
+  }
+  #contact .col-md-offset-2 {
+    margin-left: auto;
+  }
+
+  .hestia-contact-title-area {
+    margin: auto;
+    align-self: center;
+    align-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #contact .col-md-offset-2 {
+    margin: auto;
+  }
 }
 
 .hestia-contact-title-area .hestia-title {
