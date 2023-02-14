@@ -118,3 +118,39 @@ Feb 14 2023 00:29:06
 Feb 14 2023 00:29:06
 {"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
 
+Feb 14 2023 02:35:59
+{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-config.php","Line":171}
+
+Feb 14 2023 02:36:14
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Feb 14 2023 03:47:07
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Feb 14 2023 03:47:08
+{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-config.php","Line":171}
+
+Feb 14 2023 03:47:22
+{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-config.php","Line":171}
+
+Feb 14 2023 03:48:34
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Feb 14 2023 03:48:35
+{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-config.php","Line":171}
+
+Feb 14 2023 03:58:51
+{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-config.php","Line":171}
+
+Feb 14 2023 04:00:55
+{"type":8192,"message":"Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice","file":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-includes\\Requests\\Utility\\CaseInsensitiveDictionary.php","line":91}
+
+Feb 14 2023 04:00:55
+{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-config.php","Line":171}
+
+Feb 14 2023 04:11:55
+{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-config.php","Line":171}
+
+Feb 14 2023 04:16:01
+{"Number":8192,"Message":"base64_encode(): Passing null to parameter #1 ($string) of type string is deprecated","File":"C:\\Users\\veste\\Local Sites\\rewagauderncom\\app\\public\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\model\\export\\class-ai1wm-export-config.php","Line":171}
+
