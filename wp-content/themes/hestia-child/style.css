@@ -450,3 +450,11 @@ HOMEPAGE BLOG
 footer.footer.footer-black {
   background: #221c35;
 }
+
+@media screen and (max-width:300px) {
+  #schedule-consult p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
