@@ -26,4 +26,14 @@ function hestia_child_get_parent_options() {
 	}
 }
 add_action( 'after_switch_theme', 'hestia_child_get_parent_options' );
+
+function new_section_1(){
+	
+  echo do_shortcode('<div style="width: 100%; padding-bottom: 32px; margin: 16px; margin: auto;text-align:center">
+    [su_button size="10" background="#221c35" url="http://rewagaudern.com/#schedule-consult"] I\'m Ready! [/su_button]
+  </div>');
+    
+  }
+  
+  add_action( 'hestia_before_about_section_hook', 'new_section_1' );
 	

@@ -23,6 +23,10 @@ RGB: (152,29,151)
 *
 */
 
+
+.html, body {
+  height: 100%;
+}
 /*============================================
 PAGE HEADER - BIG SITE HEADER
 ============================================*/
@@ -87,6 +91,10 @@ PAGE HEADER - BIG SITE HEADER
   }
 }
 
+.copyright {
+  display: none;
+}
+
 /*============================================
 HOMEPAGE ABOUT SECTION
 ============================================*/
@@ -95,26 +103,35 @@ HOMEPAGE ABOUT SECTION
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  height: auto;
 }
 
 .hestia-about .container {
   margin: 0px;
   width: 100%;
+  display: flex;
 }
 
 #about.hestia-about {
   padding-left: 0px;
   padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .about-overlay {
   width: 100%;
   height: 100%;
   z-index: 2;
-  padding-left: 65px;
-  padding-right: 65px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+}
+
+.hestia-about {
+  position: relative;
 }
 
 .about-content {
@@ -128,37 +145,241 @@ HOMEPAGE ABOUT SECTION
   display: flex;
 }
 
-#about .about-img {
-  width: 100%;
-  justify-content: center;
-  display: flex;
-}
-
 #about .about-img img {
   display: flex;
   margin: auto;
-  align-self: center;
+  align-self: right;
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
 }
-.about-columns {
-  max-width: 80%;
+
+.about-image {
+  position: absolute;
+  bottom: 0px;
+}
+
+.about-text-column {
+  color: white;
+  max-width: 70%;
+}
+
+.about-img-column {
+  background-color: #e7e0e8;
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 0px;
   margin: auto;
-  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 35%;
+  color: #221c35;
 }
+
+.hestia-about {
+  /* background-image: url('assets/img/irena-iriser.jpg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e7e0e8;
+  width: 100%;
+  height: auto;
+}
+
+.rewa {
+  margin: auto;
+  padding-left: 50px;
+  letter-spacing: 1.5px;
+  font-size: 48px;
+}
+
+.hestia-about .container {
+  padding: 0px;
+}
+.about-text-column {
+  background-image: url('assets/img/irena-iriser.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  /* position: absolute; */
+  height: 100%;
+  width: 65%;
+  left: 0px;
+  top: 0px;
+  float: left;
+  letter-spacing: 1.5px;
+}
+
+.hestia-about-content {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+  margin: 0px;
+  /* min-height: 700px; */
+}
+
+.hestia-about .about-text-column h2 {
+  color: white;
+}
+
+.about-overlay {
+  background-color: rgba(72, 50, 72, 0.6);
+  padding: 30px;
+}
+
+.about-subtitle-text {
+  margin: auto;
+}
+
+@media screen and (max-width:991px){
+  .hestia-about-content .about-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+  }
+
+  .hestia-features .row, .features .row, .hestia-about .row, .about .row, .products .row, .hestia-work .row, .work .row, .hestia-team .row, .team .row, .pricing .row, .hestia-testimonials .row, .testimonials .row, section.hestia-blogs .row, .contactus .row {
+    padding: 0 0px;
+}
+
+:where(.is-layout-flex) {
+  gap: 0.0em;
+}
+
+  .about-text-column {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-img-column img{
+    margin: auto;
+    align-self: center;
+    width: 100%;
+  }
+
+  .about-img-column{
+    margin: auto;
+    align-self: center;
+    width: 100%;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 
 /*============================================
 TESTIMONIALS
 ============================================*/
 
+/* .carousel-wrapper {
+  max-width: 60%;
+} */
+
 .testimonial-container {
-  background: url('assets/img/mountains.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  width: 100%;
-  padding-left: 65px;
-  padding-right: 65px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  max-width: 75%;
+  margin: auto;
+}
+
+.item-content-wrapper {
+  background-color: #e7e0e8;
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  color: #221c35;
+}
+
+.swiper-wrapper {
+  height: auto;
+  max-height: 275px;
+}
+
+.tss-wrapper .tss-layout3 .item-content-wrapper, .tss-wrapper .tss-isotope1 .item-content-wrapper, .tss-wrapper .tss-video1 .item-content-wrapper, .tss-wrapper .tss-carousel3 .item-content-wrapper {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  position: relative;
+}
+
+.tss-wrapper .tss-layout3 .item-content-wrapper:before, .tss-wrapper .tss-isotope1 .item-content-wrapper:before, .tss-wrapper .tss-video1 .item-content-wrapper:before, .tss-wrapper .tss-carousel3 .item-content-wrapper:before {
+  color: #6d5aa8;
+  position: absolute;
+  left: 0px;
+  top: -15px;
+  font-family: "tss-font", serif;
+  font-size: 30px;
+}
+
+.tss-carousel-main .swiper-arrow, .tss-carousel .swiper-arrow {
+  background: #6d5aa8;
+}
+
+.tss-carousel-main .swiper-arrow > i, .tss-carousel .swiper-arrow > i {
+  /* color: #221C35; */
+}
+/*============================================
+CONTACT
+============================================*/
+.card-contact {
+  min-width: 600px;
+}
+
+.contactus .card .content {
+  padding: 0px 0px 0px 0px;
+  margin-top: 30px;
+}
+
+.card-contact .header {
+  margin-top: -20px;
+  padding: 17px 10px;
+}
+
+#branding {
+  display: none;
+}
+
+#contact {
+  /* background-image: url('assets/img/fall-mountain-lake.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.hestia-contact-title-area .hestia-title {
+  color: white;
+}
+
+#schedule-consult h2 {
+  color: white;
+}
+
+#schedule-consult p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.section-image:after {
+  background-color: rgba(100, 0, 100, 0.5);
+}
+
+.social-icon {
+  margin: 8px;
 }
 
 /*============================================
@@ -168,10 +389,6 @@ HOMEPAGE BLOG
 .card-blog {
   background-color: rgba(255, 255, 255, 0.5);
 }
-
-
-
-
 
 .hestia-info p {
   color: #525252;
@@ -195,7 +412,7 @@ HOMEPAGE BLOG
 
 
 #blog {
-  background: url('assets/img/fall-mountain-lake.jpg');
+  /* background: url('assets/img/fall-mountain-lake.jpg'); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -205,14 +422,6 @@ HOMEPAGE BLOG
   color: white;
 }
 
-.about-text-column {
-  background-color: paleturquoise;
-}
-
-.about-img-column {
-  background-color: white;
-}
-
-.hestia-about {
-  background-color: paleturquoise;
+footer.footer.footer-black {
+  background: #221c35;
 }
